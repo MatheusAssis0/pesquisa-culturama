@@ -155,8 +155,21 @@
                 <textarea id="opinion" name="userOpinion" placeholder="Compartilhe sua opinião sobre como foi sua experiência"></textarea>
             </fieldset>
 
+            <fieldset>
+                <legend>Confirmações</legend>
+                <br>
+
+                <input id="userLgpdTerm" type="checkbox" name="userLgpd" value="true" required>
+                <label for="userLgpdTerm">Confirmo que as informações fornecidas são verdadeiras e autorizo o uso dos dados para fins de pesquisa.</label>
+                <br>
+
+                <input id="getResult" type="checkbox" name="userGetResult" value="true">
+                <label for="getResult">Desejo receber os resultados da pesquisa pelo email.</label>
+            </fieldset>
+
             <br>
             <button type="submit">Enviar</button>
+            <button type="reset">Limpar</button>
         </form>
     </section>
 </body>
